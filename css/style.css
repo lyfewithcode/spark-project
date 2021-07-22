@@ -1,0 +1,40 @@
+header {
+    height: 112px;
+    line-height: 112px;
+    background-color: #333;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:hover {
+    color: #d35400;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header ul {
+    width: 200px;
+}
+
+header ul li {
+    height: 4em;
+    line-height: 4em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #d35400;
+    border-color: #d35400;
+}
