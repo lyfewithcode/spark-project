@@ -7,10 +7,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    height: 2000px;
+    /* height: 2000px; */
 }
 
-h1, p {
+h1, p, h2, h3 {
     margin: 0;
     padding: 0;
 }
@@ -99,4 +99,12 @@ a:hover, a:focus, .btn:hover, .btn:focus {
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+.section-padding {
+    padding: 64px 0;
+}
+
+.space {
+    margin-top: 64px;
 }
