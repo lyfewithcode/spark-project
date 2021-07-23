@@ -11,4 +11,18 @@ jQuery(document).ready(function() {
         typeSpeed: 0,
         loop: true
     });
+
+    $(window).scroll(function() {
+        
+        var top = $(window).scrollTop();
+
+        if(top > 70) {
+            $('header').addClass('transparent-bg');
+        } else {
+            if($('header').hasClass('transparent-bg')) {
+                $('header').removeClass('transparent-bg');
+            }
+        }
+
+    });
 });

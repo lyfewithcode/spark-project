@@ -1,7 +1,10 @@
 header {
     height: 112px;
     line-height: 112px;
-    background-color: #333;
+    /* background-color: #333; */
+    position: fixed;
+    z-index: 2;
+    width: 100%;
 }
 
 header a {
