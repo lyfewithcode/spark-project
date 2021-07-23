@@ -78,3 +78,7 @@ a.cta {
     border: 1px solid #fff;
 }
 
+.slider .text, .slider .typed-cursor {
+    display: inline;
+    font-size: 56px;
+}

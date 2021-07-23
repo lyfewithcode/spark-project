@@ -45,11 +45,11 @@ ul, li {
     text-align: right;
 }
 
-.primry {
+.primary {
     color: #d35400;
 }
 
-.primry-bg {
+.primary-bg {
     background-color: #d35400;
 }
 
@@ -73,4 +73,29 @@ a:hover, a:focus, .btn:hover, .btn:focus {
 
 .transparent-bg {
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
