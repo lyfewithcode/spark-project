@@ -206,3 +206,45 @@ a.cta:hover:after {
     top: 120%;
     right: 120%;
 }
+
+/* contact */
+
+.contact-info p {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contact-info .icon {
+    margin-right: 10px;
+}
+
+input {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+textarea {
+    display: block;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+input:focus, textarea:focus {
+    border-color: #d35400;
+    border-width: 2px;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    background-color: #333;
+    color: #fff;
+}
